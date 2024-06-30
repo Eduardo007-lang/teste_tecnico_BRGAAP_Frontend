@@ -1,0 +1,17 @@
+[
+    {
+        "Nome": "Produto A",
+        "Valor": 100,
+        "Detalhe": "Descrição do Produto A"
+    },
+    {
+        "Nome": "Produto B",
+        "Valor": 200,
+        "Detalhe": "Descrição do Produto B"
+    },
+    {
+        "Nome": "Produto C",
+        "Valor": 300,
+        "Detalhe": "Descrição do Produto C"
+    }
+]

@@ -1,0 +1,41 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "id": "sap.ui.comp.sample.smarttable.smartMTableWithCriticality",
+        "type": "application",
+        "title": "Smart Table with Criticality",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "rootView": {
+            "viewName": "sap.ui.comp.sample.smarttable.smartMTableWithCriticality.view.SmartTable",
+            "type": "XML",
+            "async": true,
+            "id": "rootView"
+        },
+        "dependencies": {
+            "libs": {
+                "sap.m": {},
+                "sap.ui.comp": {}
+            },
+            "minUI5Version": "1.48.9"
+        },
+        "resourceRoots": {
+            "sap.ui.comp.sample.smarttable.smartMTableWithCriticality": "./"
+        }
+    }
+}

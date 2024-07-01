@@ -31,21 +31,18 @@ sap.ui.define([
         },
 
         onOpenNotaFiscalDetails: function (oEvent) {
-            // Obtendo o contexto da linha selecionada
             var oButton = oEvent.getSource();
             var oBindingContext = oButton.getBindingContext("NotaFiscal");
 
-            // Cria e define o modelo para o diálogo com base no contexto da linha
             var oNotaFiscalData = oBindingContext.getObject();
             var oNotaFiscalModel = new JSONModel(oNotaFiscalData);
             this.getView().setModel(oNotaFiscalModel, "NotaFiscalSelected");
 
-            // Abre o diálogo
             this.byId("notaFiscalDetailsDialog").open();
         },
 
         onCloseNotaFiscalDetails: function () {
-            // Fecha o diálogo
+
             this.byId("notaFiscalDetailsDialog").close();
         },
 
